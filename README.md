@@ -3,12 +3,6 @@
 This is a Go implementation of [markdeep.mini.js]'s ASCII diagram
 generation.
 
-## Usage
-
-```bash
-$ go get github.com/bep/goat
-$ goat my-cool-diagram.txt > my-cool-diagram.svg
-```
 
 ## TODO
 
@@ -21,7 +15,7 @@ Here are some SVGs and the ASCII input they were generated from:
 
 ### Trees
 
-![Trees Example](https://cdn.rawgit.com/blampe/goat/master/examples/trees.svg)
+![Trees Example](https://cdn.rawgit.com/bep/goat/master/examples/trees.svg)
 
 ```
           .               .                .               .--- 1          .-- 1     / 1
@@ -35,7 +29,7 @@ Here are some SVGs and the ASCII input they were generated from:
 
 ### Overlaps
 
-![Overlaps Example](https://cdn.rawgit.com/blampe/goat/master/examples/overlaps.svg)
+![Overlaps Example](https://cdn.rawgit.com/bep/goat/master/examples/overlaps.svg)
 
 ```
            .-.           .-.           .-.           .-.           .-.           .-.
@@ -49,7 +43,7 @@ Here are some SVGs and the ASCII input they were generated from:
 
 ### Line Decorations
 
-![Line Decorations Example](https://cdn.rawgit.com/blampe/goat/master/examples/line-decorations.svg)
+![Line Decorations Example](https://cdn.rawgit.com/bep/goat/master/examples/line-decorations.svg)
 
 ```
                 ________                            o        *          *   .--------------.
@@ -63,7 +57,7 @@ Here are some SVGs and the ASCII input they were generated from:
 
 ### Line Ends
 
-![Line Ends Example](https://cdn.rawgit.com/blampe/goat/master/examples/line-ends.svg)
+![Line Ends Example](https://cdn.rawgit.com/bep/goat/master/examples/line-ends.svg)
 
 ```
    o--o    *--o     /  /   *  o  o o o o   * * * *   o o o o   * * * *      o o o o   * * * *
@@ -80,7 +74,7 @@ Here are some SVGs and the ASCII input they were generated from:
 
 ### Dot Grids
 
-![Dot Grids Example](https://cdn.rawgit.com/blampe/goat/master/examples/dot-grids.svg)
+![Dot Grids Example](https://cdn.rawgit.com/bep/goat/master/examples/dot-grids.svg)
 
 ```
   o o o o o  * * * * *  * * o o *    o o o      * * *      o o o     · * · · ·     · · ·
@@ -92,7 +86,7 @@ Here are some SVGs and the ASCII input they were generated from:
 
 ### Large Nodes
 
-![Large Node Example](https://cdn.rawgit.com/blampe/goat/master/examples/large-nodes.svg)
+![Large Node Example](https://cdn.rawgit.com/bep/goat/master/examples/large-nodes.svg)
 
 ```
    .---.       .-.        .-.       .-.                                       .-.
@@ -107,7 +101,7 @@ Here are some SVGs and the ASCII input they were generated from:
 
 ### Small Grids
 
-![Small Grids Example](https://cdn.rawgit.com/blampe/goat/master/examples/small-grids.svg)
+![Small Grids Example](https://cdn.rawgit.com/bep/goat/master/examples/small-grids.svg)
 
 ```
        ___     ___      .---+---+---+---+---.     .---+---+---+---.  .---.   .---.
@@ -121,7 +115,7 @@ Here are some SVGs and the ASCII input they were generated from:
 
 ### Big Grids
 
-![Big Grids Example](https://cdn.rawgit.com/blampe/goat/master/examples/big-grids.svg)
+![Big Grids Example](https://cdn.rawgit.com/bep/goat/master/examples/big-grids.svg)
 
 ```
     .----.        .----.
@@ -139,7 +133,7 @@ Here are some SVGs and the ASCII input they were generated from:
 
 ### Complicated
 
-![Complicated Example](https://cdn.rawgit.com/blampe/goat/master/examples/complicated.svg)
+![Complicated Example](https://cdn.rawgit.com/bep/goat/master/examples/complicated.svg)
 
 ```
 +-------------------+                           ^                      .---.
